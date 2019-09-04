@@ -1,4 +1,4 @@
-// Items I completed
+// Items I completed (8, and stretch)
 
     // * [ x] `mouseover`
     // * [x ] `dblclick`
