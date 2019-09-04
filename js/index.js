@@ -1,4 +1,4 @@
-// Your code goes here
+// Items I completed
 
     // * [ x] `mouseover`
     // * [x ] `dblclick`
@@ -6,11 +6,10 @@
     // * [ x] `wheel`
     // * [ x] `load`
     // * [ x] `resize`
-    // * [x] `tweenmax` -- stretch
-	// * [ ] `drag / drop` no
-	// * [ x] `focus` 
-	// * [ ] `scroll` no
-	// * [ ] `select` no
+        // * [x] `tweenmax` -- stretch
+    // * [ x] `focus` 
+    // * [x] `copy`
+
 
    
 
@@ -73,7 +72,11 @@ window.addEventListener('load', event => {
   });
 
 
-//SELECT
+//SCROLL
+const scrollPage = document.querySelector('body')[0];
+document.addEventListener("scroll", event =>{
+
+    });
 
 
 
@@ -88,4 +91,10 @@ window.addEventListener('load', event => {
 const gaudyNav = document.querySelector(".nav a");
 gaudyNav.addEventListener("focus", event =>{
     gaudyNav.style.color = "red";
+});
+
+//COPY
+const source = document.querySelector('.content-destination h2');
+source.addEventListener('copy', (event) => {
+   window.alert('Swiper Swiper No Swiping!')
 });
